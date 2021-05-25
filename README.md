@@ -32,7 +32,7 @@
 # 实现功能
 外卖的浏览，外卖购物车加购以及结算，登录等
 1. 首页
-<img src="/pic/msite.png" width="300" height="500" alt="msite"/>
+<img src="/pic/msite.png" width="300" height="500" alt="msite"/><br />
 
 2. 搜索
 <img src="/pic/search.png" width="300" height="500" alt="search"/>
