@@ -130,6 +130,7 @@
     />
   </section>
 </template>
+
 <script>
 import AlertTip from '../../components/AlertTip/AlertTip.vue'
 import { reqPwdLogin, reqSendCode, reqSmsLogin } from '../../api'
@@ -160,7 +161,6 @@ export default {
       if (this.codeTime == 0) {
         // 启动倒计时
         this.codeTime = 30
-
         this.intervalId = setInterval(() => {
           this.codeTime--
           if (this.codeTime == 0) {
@@ -237,7 +237,7 @@ export default {
         this.$store.dispatch('saveUser', user)
         this.$router.replace('/profile')
       } else {
-        // 显示提示
+        // 显示警告提示
         const msg = result.msg
         this.showAlert(msg)
         // 更换图形验证码
