@@ -45,7 +45,7 @@
 
 ## 登陆
 <img src="/pic/login.png" width="300" height="500" alt="login"/>
-默认用户名：123，密码：abc
+默认用户名：abc，密码：123
 
 ## 点餐
 <img src="/pic/shop-detail.png" width="300" height="500" alt="food"/>
